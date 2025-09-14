@@ -474,8 +474,9 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="731" height="99" alt="Screenshot from 2025-09-14 13-45-24" src="https://github.com/user-attachments/assets/82ad0e3c-726e-4744-b385-5f442be549f4" />
 
- <img width="835" height="108" alt="487184346-2e7aa4c1-bd2d-44a3-9249-fc2f6b714f0f" src="https://github.com/user-attachments/assets/3dd4d80b-340c-4291-953b-16d18cf647e8" />
+ 
 
 cat << stop > herecheck.txt
 ```
@@ -487,8 +488,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="725" height="257" alt="Screenshot from 2025-09-14 13-49-31" src="https://github.com/user-attachments/assets/5c784266-6ae9-4570-ba71-8dc1da4a4910" />
 
-<img width="422" height="116" alt="487184484-dceb295d-3f15-4573-894b-184ce1a279d3" src="https://github.com/user-attachments/assets/292ebebb-c7e1-4682-8671-5dbe58ff7f25" />
 
 cat < scriptest.sh 
 ```bash
@@ -526,12 +527,13 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-<img width="811" height="645" alt="487184764-3848ba74-da09-476a-9661-b770584cdfa3" src="https://github.com/user-attachments/assets/62c793fc-411c-41f7-a145-6c843b5265fe" />
 
  
+<img width="725" height="381" alt="Screenshot from 2025-09-14 13-56-40" src="https://github.com/user-attachments/assets/13db6945-5b74-4522-bf89-0e4eb84bbc53" />
 ls file1
 ## OUTPUT
-<img width="646" height="84" alt="487184859-bedbccba-1f54-4fcb-b85a-84fb55b1dee6" src="https://github.com/user-attachments/assets/142cb5a7-6778-43b6-b834-659bb69a9ec6" />
+<img width="724" height="44" alt="Screenshot from 2025-09-14 13-59-50" src="https://github.com/user-attachments/assets/131eadf3-f90c-4685-b8c7-f3c8a5d812fb" />
+
 
 
  
@@ -539,8 +541,8 @@ abcd
  
 echo $?
  ## OUTPUT
+<img width="724" height="44" alt="Screenshot from 2025-09-14 14-00-33" src="https://github.com/user-attachments/assets/98025ab7-aa8b-45d1-a6e0-444e5a1be18a" />
 
-<img width="628" height="63" alt="487185067-cfb1f778-e998-4f16-b578-3855962c0ce0" src="https://github.com/user-attachments/assets/90816d14-9ae7-4d63-8bdd-6c45e32b9357" />
 
  
 # mis-using string comparisons
@@ -572,16 +574,16 @@ echo "$val1 is less than $val2"
 fi
 ```
 ## OUTPUT
-<img width="487" height="331" alt="487185200-d98edd26-786f-47e6-b1db-97a07e66ac9d" src="https://github.com/user-attachments/assets/eb10899f-9633-4c7c-904a-c8bd7fda4569" />
 
+<img width="724" height="166" alt="Screenshot from 2025-09-14 14-07-16" src="https://github.com/user-attachments/assets/643f9c97-9d18-4cc6-9dc8-e2b7c244f4d8" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="725" height="75" alt="Screenshot from 2025-09-14 14-15-47" src="https://github.com/user-attachments/assets/51ad5b4d-c859-4fbb-a6a0-16ae30df587a" />
 
-<img width="741" height="88" alt="487185280-a556e682-3df0-4a23-8d07-2a9da3ac1b20" src="https://github.com/user-attachments/assets/56c3ba35-81c9-4866-a3c0-cc95573be7b4" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -608,7 +610,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-<img width="741" height="88" alt="487185397-23cb659d-a39c-4416-8c97-115cda3029fa" src="https://github.com/user-attachments/assets/b1924b96-435c-4920-9e14-d88375471ea7" />
+<img width="725" height="62" alt="Screenshot from 2025-09-14 14-31-56" src="https://github.com/user-attachments/assets/7f566839-6df5-4667-a2f2-8b76db5a080c" />
 
 # check if with file location
 cat>ifnested.sh 
